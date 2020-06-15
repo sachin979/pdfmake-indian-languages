@@ -4,63 +4,29 @@
 
     <title>PDFMAKE</title>
   </head>
-  <body> <script src="./build/pdfmake.js"></script>
-  <script src="./build/vfs_fonts.js"></script> </body>
+  <body> <script src="./node_modules/pdfmake/build/pdfmake.js"></script>
+  <script src="./node_modules/pdfmake/build/vfs_fonts.js"></script> </body>
 <script>
 var docDefinition = {
   content: [
-  		{ text: 'ತನಾಡುವ ಭಾಷೆಯೆಂಬ ನೆಲೆಯಲ್ಲಿ ಇಪ್ಪತೊಂಬತ್ತನೆಯ ಸ್ಥಾನ ಕನ್ನಡಕ್ಕಿದೆ. ೨೦೧೧ರ ಜನಗಣತಿಯ ಪ್ರಕಾರ ಜಗತ್ತಿನಲ್ಲಿ ೬.೪ ಕೋಟಿ ಜನಗಳು ಕನ್ನಡ ಮಾತನಾಡುತ್ತಾರೆ ಎಂದು ತಿಳಿದುಬಂದಿದೆ. ಇವರಲ್ಲಿ ೫.೫ ಕೋಟಿ ಜನಗಳ ಮಾತೃಭಾಷೆ ಕನ್ನಡವಾಗಿದೆ. ಬ್ರಾಹ್ಮಿ ಲಿಪಿಯಿಂದ ರೂಪುಗೊಂಡ ಕನ್ನಡ ಲಿಪಿಯನ್ನು ಉಪಯೋಗಿಸಿ ಕನ್ನಡ ಭಾಷೆಯನ್ನು ಬರೆಯಲಾಗುತ್ತದೆ. ಕನ್ನಡ ಬರಹದ ಮಾದರಿಗಳಿಗೆ ಸಾವಿರದ ಐನೂರು ವರುಷಗಳ ಚರಿತ್ರೆಯಿದೆ. ಕ್ರಿ.ಶ. ಆರನೆಯ', style: 'langA' },
-  		{ text: 'राना आवश्यक गटकउसि ढांचामात्रुभाषा उनका समाज प्रति उसीएक् बीसबतेबोध माहितीवानीज्य प्रति करता गोपनीयता ढांचामात्रुभाषा आपके लचकनहि बेंगलूर निरपेक्ष सुचना विशेष मेमत वर्तमान अनुवादक अधिक दौरान उदेशीत बिन्दुओ निर्माता उपलब्धता सुस्पश्ट करके(विशेष करती सुच', style: 'langB'},
-      {text: 'તેઓ ગુજરાતી ભાષા ૦૦ વર્ષથી વધુ જૂની છે અને વિશ્વભરમ 55 મિલિયનથી વધુ લોકો બોલે છે. ગુજરાતની બહાર, દક્ષિણ એશિયાના અન્ય ઘણા ભાગોમાં ગુજરાતી સ્થળાંતર દ્વારા ગુજરાતી બોલાવાય છે, ખાસ કરીને બોમ્બે અને પાકિસ્તાનમાં (મુખ્યત્વે કરાચીમાં).  ગુજરાતી ડાયસ્પોરા દ્વારા દક્ષિણ એશિયાની બહારના ઘણા દેશોમાં ગુજરાતી પણ મોટાભાગે બોલાય છે. ઉત્તર અમેરિકામાં, યુનાઇટેડ સ્ટેટ્સ અને કેનેડામાં સૌથી ઝડપથી વિકસતી અને વ્યાપકપણે બોલાતી ભારતીય ભાષાઓમાં ગુજરાતી એક છે યુરોપમાં, ગુજરાતીઓ બ્રિટીશ દક્ષિણ એશિયન ભાષણમાં બીજા ક્રમે આવે છે', style:'langC'},
-      {text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', style:'langD'}
+    {text: 'તેઓ ગુજરાતી ભાષા ૦૦ વર્ષથી વધુ જૂની છે અને વિશ્વભરમ 55 મિલિયનથી વધુ લોકો બોલે છે. ગુજરાતની બહાર, દક્ષિણ એશિયાના અન્ય ઘણા ભાગોમાં ગુજરાતી સ્થળાંતર દ્વારા ગુજરાતી બોલાવાય છે, ખાસ કરીને બોમ્બે અને પાકિસ્તાનમાં (મુખ્યત્વે કરાચીમાં).  ગુજરાતી ડાયસ્પોરા દ્વારા દક્ષિણ એશિયાની બહારના ઘણા દેશોમાં ગુજરાતી પણ મોટાભાગે બોલાય છે. ઉત્તર અમેરિકામાં, યુનાઇટેડ સ્ટેટ્સ અને કેનેડામાં સૌથી ઝડપથી વિકસતી અને વ્યાપકપણે બોલાતી ભારતીય ભાષાઓમાં ગુજરાતી એક છે યુરોપમાં, ગુજરાતીઓ બ્રિટીશ દક્ષિણ એશિયન ભાષણમાં બીજા ક્રમે આવે છ    कराना आधुनिक लाभान्वित माहितीवानीज्य संभव विवरण एसलिये आधुनिक करके(विशेष पहोच समस्याओ उपलब्धता प्रोत्साहित नाकर विकास खरिदने असक्षम कम्प्युटर ध्येय जनित पहोच। उपेक्ष उपयोगकर्ता जनित उनको मेंभटृ वास्तव सदस्य करेसाथ तकनिकल नाकर तरीके क्षमता उदेशीत विश्वव्यापि जिवन बनाना माध्यम वेबजाल व्यवहार करके औषधिक काम उपेक्ष लचकनहि वास्तव तरीके चिदंश खण्ड स्थिति कार्यकर्ता सारांश संस्क्रुति अपनि प्राण  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum', style:'langD'}
   	],
   	styles: {
-  		langA: {
-  			font: 'kannada',
-  		},
-  		langB: {
-  			font: 'hindi',
-  		},
-  		langC: {
-  			font: 'gujarati',
-  		},
   		langD: {
   			font: 'english',
   		}
   	}
 }
 pdfMake.fonts = {
-kannada: {
-     normal: 'NotoSansKannada-Regular.ttf',
-     bold: 'NotoSansKannada-Bold.ttf',
-     italics: 'NotoSansKannada-Regular.ttf',
-     bolditalics: 'NotoSansKannada-Regular.ttf'
-   },
-  hindi: {
-    normal: 'Mangal Regular.ttf',
-    bold: 'Mangal Regular.ttf',
-    italics: 'Mangal Regular.ttf',
-    bolditalics: 'Mangal Regular.ttf'
-  },
-gujarati: {
-   normal: 'Lohit-Gujarati.ttf',
-   bold: 'Lohit-Gujarati.ttf',
-   italics: 'Lohit-Gujarati.ttf',
-   bolditalics: 'Lohit-Gujarati.ttf'
- },
  english: {
-    normal: 'Roboto-Regular.ttf',
-    bold: 'Roboto-Bold.ttf',
-    italics: 'Roboto-Italic.ttf',
-    bolditalics: 'Roboto-Italic.ttf'
+    normal: 'SakalBharati_N_Ship.ttf',
+    bold: 'SakalBharati_N_Ship.ttf',
+    italics: 'SakalBharati_N_Ship.ttf',
+    bolditalics: 'SakalBharati_N_Ship.ttf'
   }
-
-
 };
 
     pdfMake.createPdf(docDefinition).download();
-
-
 </script>
 
 </html>
